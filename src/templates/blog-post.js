@@ -1,6 +1,5 @@
 import React from "react";
 import Helmet from "react-helmet";
-
 export default function Template({
   data 
 }) {
@@ -16,9 +15,7 @@ export default function Template({
         />
       </div>
     </div>
-    
   );
-  
 }
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
