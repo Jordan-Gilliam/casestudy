@@ -1,9 +1,51 @@
 ---
 path: "/hello-world"
-date: "2017-07-12T17:12:33.962Z"
-title: "My First Gatsby Post"
+date: "2018-01-31T17:12:33.962Z"
+title: "Convoy: digging in to the navigation application"
 ---
-Oooooh-weeee, my first blog post!
-First post Ipsum is a major key to success. Congratulations, you played yourself. Surround yourself with angels. Celebrate success right, the only way, apple. 
- 
-The key is to drink coconut, fresh coconut, trust me. Egg whites, turkey sausage, wheat toast, water. Of course they don’t want us to eat our breakfast, so we are going to enjoy our breakfast.
+About the team:
+<br>
+Isabella Ambrosio-
+<br>
+Morgan Bradley-
+<br>
+Jim Gregory-
+<br>
+Jordan Gilliam-
+<br>
+# convoy
+Making group travel easy
+## Deployment
+
+ <a href="https://www.heroku.com/">Heroku</a> 
+
+
+## User Authorization
+<p style="text-align:center"><img src ="https://i.gyazo.com/7e9d482db7ed7ea06526f8f315a29e09.gif" />
+</p>
+<br>
+Firebase + React:
+Our Auth is wicked smaht, if youve signed in already it will remember.
+
+## UI
+
+<br>
+
+## Firebase
+
+<br>
+
+## SendGrid
+
+<br>
+
+## Built With
+
+* [Node](https://nodejs.org/en/) - Backend
+* [Express](https://expressjs.com/) - Server
+* [SendGrid](https://sendgrid.com/) - Email Invitation
+
+* [yarn](https://yarnpkg.com/en/) - Pkg manager
+* [firebase](https://firebase.google.com/) - Database
+* [Google Maps](https://developers.google.com/maps/) - API
+* [React](https://reactjs.org/) - Framework
