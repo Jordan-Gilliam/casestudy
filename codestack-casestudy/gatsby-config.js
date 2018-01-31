@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: 'https://jordan-gilliam.github.io/casestudy/',
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },
