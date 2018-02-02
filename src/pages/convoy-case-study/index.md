@@ -3,7 +3,8 @@ path: "/hello-world"
 date: "2018-01-31T17:12:33.962Z"
 title: "Convoy: digging in to the navigation application"
 ---
-<p align="center">[![https://gyazo.com/f126cc7722664d42bb77a24ed5e41903](https://i.gyazo.com/f126cc7722664d42bb77a24ed5e41903.png)](https://gyazo.com/f126cc7722664d42bb77a24ed5e41903)img src="/client/public/convoy.png" width="350"/>
+<p align="center">
+[![https://gyazo.com/f126cc7722664d42bb77a24ed5e41903](https://i.gyazo.com/f126cc7722664d42bb77a24ed5e41903.png)]
 </p>
 
 
@@ -32,10 +33,10 @@ Making group travel easy. This app allows users to create travel groups and trac
 Using a combination of CSS, Materialize, and MaterialUI,  Convoy boasts a user-friendly, responsive design. Convoy's UI focuses on simplicity and usability, using a mobile first SPA. The custom graphics are implemented with media-queries, allowing Convoy to look great on any device. Red is a symbol of energy, strength, and determination, which are three characteristics most people on an adventure experience. Convoy harnesses this by using subtle hints of red throughout the app. 
 
 #### Mobile 
-![ConvoyImage Small](./public/convoyHere.png)
+![ConvoyImage Small](/public/convoyHere.png)
 
 #### Min-Width @768px
-![ConvoyImage Wide](./public/convoywider.png)
+![ConvoyImage Wide](/public/convoywider.png)
 
 <br>
 
@@ -56,7 +57,7 @@ Firebase database information is linked to the UI, allowing user pages to update
 When users create a travel group, SendGrid will send an invitation email to all members of the group, inviting them to join Convoy. Check out our email template below...
 
 
-![SendGrid Email Template](./public/ConvoyInvitationEmail.png)
+![SendGrid Email Template](/public/ConvoyInvitationEmail.png)
 
 
 When a user clicks the 'Accept Invitation' button, they will be redirected to the /signup page on Convoy. This will associate a convoyID with each user, allowing the travel group to populate as a card on the /convoys page, and the member names to populate the card.
