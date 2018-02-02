@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 import '../styles/blog-listing.css';
-
+import { slide as Menu } from 'react-burger-menu'
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;

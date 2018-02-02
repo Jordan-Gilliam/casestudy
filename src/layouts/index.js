@@ -3,8 +3,11 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Media from 'react-media'
+import { slide as Menu } from 'react-burger-menu'
+
 
 import './index.css'
+
 
 const Header = () => (
   <div
@@ -102,11 +105,16 @@ const TemplateWrapper = ({ children }) => (
                 <div style={{ flex: 1 }}>
                 <Sidebar
                   title="Github"
-                  description="Checkout my github to keep up with new builds."
+                  description="Checkout my github to keep up with new projects."
                 />
+                <Link
+                  to = "https://github.com/Jordan-Gilliam"
+                  >
+                  github
+                </Link>
                 <Sidebar
                   title="About author"
-                  description="I am a Full-stack Web Developer specializing in React and Node.js based in Asheville, NC."
+                  description="I am a Full-stack Web Developer based out of Asheville, NC."
                 />
               </div>
             </div>
