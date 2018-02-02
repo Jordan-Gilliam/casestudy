@@ -107,11 +107,7 @@ const TemplateWrapper = ({ children }) => (
                   title="Github"
                   description="Checkout my github to keep up with new projects."
                 />
-                <Link
-                  to = "https://github.com/Jordan-Gilliam"
-                  >
-                  github
-                </Link>
+                
                 <Sidebar
                   title="About author"
                   description="I am a Full-stack Web Developer based out of Asheville, NC."

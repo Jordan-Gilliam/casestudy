@@ -3,9 +3,9 @@ path: "/hello-world"
 date: "2018-01-31T17:12:33.962Z"
 title: "Convoy: digging in to the navigation application"
 ---
-<p align="center">
-  <img src="/client/public/convoy.png" width="350"/>
+<p align="center">[![https://gyazo.com/f126cc7722664d42bb77a24ed5e41903](https://i.gyazo.com/f126cc7722664d42bb77a24ed5e41903.png)](https://gyazo.com/f126cc7722664d42bb77a24ed5e41903)img src="/client/public/convoy.png" width="350"/>
 </p>
+
 
 # Convoy
 Making group travel easy. This app allows users to create travel groups and track the location of members in that group. Use Convoy on your next roadtrip to avoid texting and calling your friends to see where they are!
@@ -29,10 +29,23 @@ Making group travel easy. This app allows users to create travel groups and trac
 <br>
 
 # UI
+Using a combination of CSS, Materialize, and MaterialUI,  Convoy boasts a user-friendly, responsive design. Convoy's UI focuses on simplicity and usability, using a mobile first SPA. The custom graphics are implemented with media-queries, allowing Convoy to look great on any device. Red is a symbol of energy, strength, and determination, which are three characteristics most people on an adventure experience. Convoy harnesses this by using subtle hints of red throughout the app. 
+
+#### Mobile 
+![ConvoyImage Small](./public/convoyHere.png)
+
+#### Min-Width @768px
+![ConvoyImage Wide](./public/convoywider.png)
 
 <br>
 
 # Firebase
+
+User authentication and data storage runs through Firebase. When a user creates an account, that account is verified and authenticated through Firebase Authentication. This will automatically create a table called 'profiles' in the database that houses all user information (with the exception of password). 
+
+Users have the option to create an unlimited number of convoys, which will store in the 'convoys' table in the database. Using queries, each table is updated accordingly to link the user profile with his/her convoys and the convoy with the user profiles. 
+
+Firebase database information is linked to the UI, allowing user pages to update seamlessly without a page reload. 
 
 
 
@@ -43,7 +56,7 @@ Making group travel easy. This app allows users to create travel groups and trac
 When users create a travel group, SendGrid will send an invitation email to all members of the group, inviting them to join Convoy. Check out our email template below...
 
 
-![SendGrid Email Template](./client/public/ConvoyInvitationEmail.png)
+![SendGrid Email Template](./public/ConvoyInvitationEmail.png)
 
 
 When a user clicks the 'Accept Invitation' button, they will be redirected to the /signup page on Convoy. This will associate a convoyID with each user, allowing the travel group to populate as a card on the /convoys page, and the member names to populate the card.
