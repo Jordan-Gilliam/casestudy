@@ -3,11 +3,7 @@ path: "/hello-world"
 date: "2018-01-31T17:12:33.962Z"
 title: "Convoy: digging in to the navigation application"
 ---
-<p align="center">
-[![https://gyazo.com/f126cc7722664d42bb77a24ed5e41903](https://i.gyazo.com/f126cc7722664d42bb77a24ed5e41903.png)]
-</p>
-
-
+[![https://gyazo.com/f126cc7722664d42bb77a24ed5e41903](https://i.gyazo.com/f126cc7722664d42bb77a24ed5e41903.png)](https://gyazo.com/f126cc7722664d42bb77a24ed5e41903)
 # Convoy
 Making group travel easy. This app allows users to create travel groups and track the location of members in that group. Use Convoy on your next roadtrip to avoid texting and calling your friends to see where they are!
 ## Deployment
@@ -33,11 +29,9 @@ Making group travel easy. This app allows users to create travel groups and trac
 Using a combination of CSS, Materialize, and MaterialUI,  Convoy boasts a user-friendly, responsive design. Convoy's UI focuses on simplicity and usability, using a mobile first SPA. The custom graphics are implemented with media-queries, allowing Convoy to look great on any device. Red is a symbol of energy, strength, and determination, which are three characteristics most people on an adventure experience. Convoy harnesses this by using subtle hints of red throughout the app. 
 
 #### Mobile 
-![ConvoyImage Small](/public/convoyHere.png)
-
+[![https://gyazo.com/f126cc7722664d42bb77a24ed5e41903](https://i.gyazo.com/f126cc7722664d42bb77a24ed5e41903.png)](https://gyazo.com/f126cc7722664d42bb77a24ed5e41903)
 #### Min-Width @768px
-![ConvoyImage Wide](/public/convoywider.png)
-
+[![https://gyazo.com/46d7336162654fd32091d6fe71e6cd8d](https://i.gyazo.com/46d7336162654fd32091d6fe71e6cd8d.png)](https://gyazo.com/46d7336162654fd32091d6fe71e6cd8d)
 <br>
 
 # Firebase
