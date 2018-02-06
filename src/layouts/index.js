@@ -106,6 +106,7 @@ const TemplateWrapper = ({ children }) => (
                 <Sidebar
                   title="Github"
                   description="Checkout my github to keep up with new projects."
+                  link="https://github.com/Jordan-Gilliam"
                 />
                 
                 <Sidebar
